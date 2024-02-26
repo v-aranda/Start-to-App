@@ -1,4 +1,5 @@
 import Duration from './Sections/Duration'
+import Formulario from './Sections/Form'
 import Grade from './Sections/Grade'
 import Hero from './Sections/Hero'
 
@@ -11,6 +12,7 @@ function App() {
         <Hero/>
         <Duration/>
         <Grade/>
+        <Formulario/>
     </div>
   )
 }

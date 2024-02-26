@@ -5,5 +5,27 @@
 
 body{
   margin: 0px;
-  padding-inline: 20px;
+  padding-inline: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inter-900 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.diamond{
+  rotate: -45deg;
 }

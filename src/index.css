@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-  margin: 0px;
-  padding-inline: 150px;
-  display: flex;
-  flex-direction: column;
-}
-
-.inter-900 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
 *{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -26,6 +10,31 @@ body{
   font-variation-settings:
     "slnt" 0;
 }
-.diamond{
-  rotate: -45deg;
+
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
+section{
+  margin-bottom: calc(7vw + 7vh);
+}
+.inter-900 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+@media screen and (min-width:710px) {
+  .diamond{
+    rotate: -45deg;
+    padding: 10px;
+    .content{
+      rotate: 45deg;
+    }
+  }
+}
+

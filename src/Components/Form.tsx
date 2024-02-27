@@ -1,10 +1,11 @@
 import { Button,  Label, TextInput } from 'flowbite-react';
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
+import Terms from './Terms';
 
 export default function Form() {
   return (
 
-    <form  className="relative z-10 flex max-w-md flex-col gap-4 bg-slate-200 p-10">
+    <form  className="subscribe relative z-10 flex max-w-md flex-col gap-4 bg-slate-200 p-10">
       <header className='inter-600 text-center text-xl text-slate-800'>
         Preencha seus Dados
       </header>
@@ -51,7 +52,7 @@ export default function Form() {
         <BsFillRocketTakeoffFill className="pr-1"/>
         Start</Button>
         <div className="mb-2 block">
-          <p className='text-center'>Ao pressionar "Start" você concorda com os <a className='hover:text-green-500 underline text-green-400' href="">Termos de Usuário</a></p>
+          <p className='text-center'>Ao pressionar "Start" você concorda com os <Terms/></p>
         </div>
     </form>
   );

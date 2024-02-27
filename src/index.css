@@ -19,6 +19,7 @@ button{
 }
 
 
+
 body{
   margin: 0px;
   display: flex;
@@ -27,6 +28,9 @@ body{
 section{
   padding-top: calc(7vw + 7vh);
   margin-inline: 8vw;
+}
+.subscribe{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .inter-900 {
   font-family: "Inter", sans-serif;
@@ -44,11 +48,19 @@ section{
   font-variation-settings:
     "slnt" 0;
 }
+.diamond-square{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.diamond{
+  padding: 10px;
+}
 
 @media screen and (min-width:710px) {
   .diamond{
     rotate: -45deg;
-    padding: 10px;
+    
   }
   .content{
     rotate: 45deg;

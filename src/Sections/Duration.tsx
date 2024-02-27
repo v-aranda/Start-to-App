@@ -2,7 +2,7 @@ import Button from "../Components/Button"
 
 export default function Duration(){
     return(
-        <section className=" sm:w-12/12 mx-auto flex flex-col items-center justify-center">  
+        <section id="Duração" className=" sm:w-12/12 mx-auto flex flex-col items-center justify-center">  
             <div className="grid sm:grid-cols-2 mb-20"> 
             <span className="diamond">
                     <p className="text-violet-600">você só precisa de</p>

@@ -2,11 +2,14 @@
 export default {
   content: [
     './src/*/**/*.tsx',
-    './src/App.tsx'
+    './src/App.tsx',
+    'node_modules/flowbite-react/lib/esm/**/*.js'
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
 

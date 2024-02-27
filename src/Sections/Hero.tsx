@@ -4,7 +4,7 @@ import heroImg from '../assets/hero_image.png'
 export default function Hero(){
     return(
         <>
-            <section className="grid sm:grid-cols-2 ">
+            <section id='Hero' className="pt-20 grid sm:grid-cols-2 ">
                 <div className='flex flex-col justify-center'>
                     <p className="bg-white text-2xl lg:text-2xl ">
                         Lembra daquela sua ideia genial?<br/>tá na hora de dar um

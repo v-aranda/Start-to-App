@@ -6,7 +6,7 @@ export default function Grade(){
     return(
         <>
         
-        <section className='flex flex-col items-center'>
+        <section id='Sobre' className='flex flex-col items-center'>
             <h1 className="text-center text-xl font-bold">
                 Durante o Curso
                 <br />

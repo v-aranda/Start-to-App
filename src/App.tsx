@@ -1,19 +1,22 @@
 import Duration from './Sections/Duration'
-import Formulario from './Sections/Form'
+import Form_sec from './Sections/Form_sec'
 import Grade from './Sections/Grade'
 import Hero from './Sections/Hero'
-
+import Navigation from './Components/Navbar'
 
 
 function App() {
 
   return (
-    <div className='px-8 lg:px-20'>
+    <>
+      <div className='relative flex flex-col items-center'>
+        <Navigation/></div>
         <Hero/>
         <Duration/>
         <Grade/>
-        <Formulario/>
-    </div>
+        <Form_sec/>
+    </>
+    
   )
 }
 
